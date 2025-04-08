@@ -19,21 +19,21 @@ ChromeDriver compatível com a versão do Google Chrome
 
 Instalar dependências Python:
 
-bash
-`pip install selenium`
-
+```bash
+pip install selenium
+```
 ## Como usar
 Clone este repositório:
 
-bash
-`git clone https://github.com/DiogoMarcondes03/py_web_price_scraping.git`
-`cd <NOME_DO_REPOSITORIO>`
-
+```bash
+git clone https://github.com/DiogoMarcondes03/py_web_price_scraping.git
+cd NOME_DO_REPOSITORIO
+```
 Execute o script no terminal:
 
-bash
-`python nome_do_arquivo.py`
-
+```bash
+python nome_do_arquivo.py
+```
 Insira o link da página desejada no site Kabum quando solicitado.
 
 O arquivo preços_original.csv será gerado com os dados coletados.

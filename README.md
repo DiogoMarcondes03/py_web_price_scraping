@@ -1,7 +1,7 @@
 # Automação de Coleta de Preços - Kabum
 Este projeto utiliza **Python** e **Selenium** para automatizar o processo de coleta de informações de produtos (nome e preço) em uma página do site [Kabum](https://www.kabum.com.br/). As informações coletadas são armazenadas em um arquivo CSV, facilitando a análise e comparação de preços, por exemplo, em momentos de promoções.
 
-# Funcionalidades
+## Funcionalidades
 Acessa a página Kabum especificada pelo usuário.
 
 Realiza o carregamento completo da página via "scroll".
@@ -19,19 +19,20 @@ ChromeDriver compatível com a versão do Google Chrome
 
 Instalar dependências Python:
 
-``bash
-pip install selenium
+bash
+`pip install selenium`
 
-# Como usar
-Clone este repositório: 
+## Como usar
+Clone este repositório:
 
-``bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+bash
+`git clone https://github.com/DiogoMarcondes03/py_web_price_scraping.git`
+`cd <NOME_DO_REPOSITORIO>`
+
 Execute o script no terminal:
 
-``bash
-python nome_do_arquivo.py
+bash
+`python nome_do_arquivo.py`
 
 Insira o link da página desejada no site Kabum quando solicitado.
 
